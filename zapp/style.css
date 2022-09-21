@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'PTSans';
+	src: url('PTSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Aref';
+	src: url('ArefRuqaaInk-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Signika';
+	src: url('SignikaNegative-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+	/*text-align: center;*/
+	background-color: #fff;
+	margin: 0;
+	height: 1000px;
+}
+
+h1 {
+	/*background-color: white;*/
+	margin: 15px;
+	padding: 5px;
+	font-family: 'PTSans', sans-serif;
+}
+
+p#e1 {
+	font-family: 'Aref';
+}
+
+p#e2 {
+	font-family: 'Signika';
+}
+
+.container {
+	margin: 20px;
+}
+
+.order button {
+	margin: 0 10px;
+}
+
+table {
+	font-family: 'Signika';
+	margin: 40px;
+	text-align: center;
+}
+
+table tr th {
+	text-transform: uppercase;
+}
+
+.menu {
+	font-family: 'Aref';
+}
+
+.bold {
+	font-weight: bold;
+}
